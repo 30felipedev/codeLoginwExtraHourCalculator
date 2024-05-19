@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left, #103FA3, #2F6CFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main-content {
+    width: 55vh;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+form {
+    padding: 20px;
+}
+
+.div-input {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 96%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    margin-bottom: 2vh;
+    width: 100%;
+    padding: 10px;
+    background-color: #F3A006;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff8800;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 24pt;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    color: #cf2e2e;
+    text-decoration: underline;
+}
+.botao-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F3A006;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+
+}
+.botao-flutuante a{
+    text-decoration: none;
+    color: black;
+}
+.botao-flutuante:hover{
+    background-color: #ff8800;
+}
+
+.senha{
+    text-align: center;
+    padding: 00vh 21vh;
+    font-size: 10pt;
+    color: #333;
+}
+.redsenha{
+    text-align: center;
+    padding: 00vh 25vh;
+    font-size: 10pt;
+    color: #333;
+}
+
+.check{
+    width: 8%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.checkB{
+    margin-right: 5vh;
+}
+.checkdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
